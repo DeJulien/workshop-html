@@ -18,12 +18,10 @@
 	</ul>
 </nav>
 <main>
-<main>
 	<table border="1">
 		<tbody>
 			<tr>
-			<form action="/send_contact
-firstname=XX&lastname=XX&email=XX&tel=XX&message=XX&channel=XX" method="post">
+			<form action="/send" method="post">
 				<th><label for="nom">Nom</label></th>
 				<th><input type="text" name="nom" id="nom"></th>
 			</tr>
@@ -44,7 +42,7 @@ firstname=XX&lastname=XX&email=XX&tel=XX&message=XX&channel=XX" method="post">
 			</tr>
 			
 			<tr>
-				<th><label for="channel">Canal de contact préféré </label></th>
+				<th>Canal de contact préféré </th>
 				<th><select id="channel" multiple>
 				<option value="france">Email</option>
 				<option value="belgique">Téléphone</option>
@@ -58,13 +56,12 @@ firstname=XX&lastname=XX&email=XX&tel=XX&message=XX&channel=XX" method="post">
 			
 			<tr>
 				<th><button type="submit">Valider</button> </th>
-				<th><button type="reset">Reset</button></th>
+				
 			</tr>
 			
 			</form>
 	</tbody>
 </table>
-
 
 </main>
 
