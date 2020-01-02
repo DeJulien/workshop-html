@@ -23,7 +23,7 @@
 		<tbody>
 			<tr>
 			<form action="/send_contact
-firstname=nom&lastname=prenom&email=email&tel=tel&message=message&channel=contactPref" method="post">
+firstname=nom&lastname=prenom&email=email&tel=tel&message=message&channel=channel" method="post">
 				<th><label for="nom">Nom</label></th>
 				<th><input type="text" name="nom" id="nom"></th>
 			</tr>
@@ -44,8 +44,8 @@ firstname=nom&lastname=prenom&email=email&tel=tel&message=message&channel=contac
 			</tr>
 			
 			<tr>
-				<th><label for="contactPref">Canal de contact préféré </label></th>
-				<th><select id="contactPref" multiple>
+				<th><label for="channel">Canal de contact préféré </label></th>
+				<th><select id="channel" multiple>
 				<option value="france">Email</option>
 				<option value="belgique">Téléphone</option>
 				</select></th>
